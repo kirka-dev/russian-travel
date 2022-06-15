@@ -1,0 +1,15 @@
+.place__website
+{
+  display: flex;
+
+  align-self: flex-end;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 767px)
+{
+  .place__website
+  {
+    display: none;
+  }
+}

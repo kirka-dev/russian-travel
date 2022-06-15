@@ -1,0 +1,34 @@
+.cover
+{
+  display: flex;
+
+  max-width: 1184px;
+  height: 740px;
+  margin: auto auto 92px;
+}
+
+@media (max-width: 1279px)
+{
+  .cover
+  {
+    max-width: 100%;
+    height: 640px;
+  }
+}
+
+@media (max-width: 1023px)
+{
+  .cover
+  {
+    height: 480px;
+  }
+}
+
+@media (max-width: 767px)
+{
+  .cover
+  {
+    height: 200px;
+    margin: auto auto 64px;
+  }
+}
